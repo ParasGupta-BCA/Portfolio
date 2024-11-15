@@ -28,6 +28,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!--  Color Css  -->
     <link rel="stylesheet" href="assets/colors/colorfull.css">
+
+<script src="https://maps.googleapis.com/maps/api/js?key=Alza5yiM80VCyIjsYjuky883NNye7gppnFGdYx0&callback=initMap" async defer></script>
   </head>
   <body class="max-width-d">
 
@@ -742,35 +744,7 @@
                 <p class="mb-0">image</p>
               </div>
             </div> 
-            <!-- Item 05 
-            <div class="col-md-6 col-lg-4 portfolio-item mobiledesign sound">
-              <div class="portfolio-image">
-                <img src="" alt="">
-                <div class="portfolio-icon">
-                  <a href="" class="portfolio-magnific mfp-iframe">
-                    <i class="bi bi-file-earmark-text"></i>
-                  </a>
-                </div>
-              </div>-->
-             <!-- <div class="portfolio-content">
-                <h6 class="blog-header">Detailed Project 2</h6>
-                <p class="mb-0">image</p>
-              </div> -->
             </div>
-            <!-- Item 06 
-            <div class="col-md-6 col-lg-4 portfolio-item mobiledesign">
-              <div class="portfolio-image">
-                <img src="" alt="">
-                <div class="portfolio-icon">
-                  <a href="" class="portfolio-magnific mfp-iframe">
-                    <i class="bi bi-file-earmark-text"></i>
-                  </a>
-                </div>
-              </div>-->
-             <!-- <div class="portfolio-content">
-                <h6 class="blog-header">Detailed Project 2</h6>
-                <p class="mb-0">image</p>
-              </div> -->
             </div>
           </div>
         </div>
@@ -876,5 +850,18 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRemITiP7JRWpZwLhVt-T2x5MeUFE2KWs"></script>
     <!--  Arshia Js  -->
     <script src="assets/js/arshia.js"></script>
+		      <script>
+    function initMap() {
+        var location = { lat: 28.6758, lng: 77.1124 }; // Your desired location
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 14,
+            center: location
+        });
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+</script>
   </body>
 </html>
