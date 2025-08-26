@@ -1,7 +1,5 @@
 <h1 align="center">Hi there, I'm Paras Gupta 👋</h1>
 
----
-
 <p align="center">
 🚀 Passionate <b>BCA Student</b> | 💻 <b>Developer</b> | 🌐 Building cool projects
 </p>
