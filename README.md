@@ -27,6 +27,22 @@
 
 ---
 
+<h3 align="left">Languages and Tools:</h3>
+<p align="left">
+  <a href="https://developer.android.com" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/>
+  </a>
+  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="arduino" width="40" height="40"/>
+  </a>
+  <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="azure" width="40" height="40"/>
+  </a>
+  <!-- rest of your existing icons here -->
+</p>
+
+---
+
 ## 📈 GitHub Stats  
 
 <p align="center">
