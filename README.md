@@ -1,9 +1,13 @@
-# Hi there, I'm Paras Gupta 👋  
+<h1 align="center">Hi there, I'm Paras Gupta 👋</h1>
 
-🚀 Passionate **BCA Student** | 💻 **Developer** | 🌐 Building cool projects  
+<p align="center">
+🚀 Passionate <b>BCA Student</b> | 💻 <b>Developer</b> | 🌐 Building cool projects
+</p>
 
-🔗 **Portfolio:** [parasgupta-bca.github.io/Portfolio](https://parasgupta-bca.github.io/Portfolio/)  
-🔗 **GitHub Profile:** [github.com/ParasGupta-BCA](https://github.com/ParasGupta-BCA)  
+<p align="center">
+🔗 <a href="https://parasgupta-bca.github.io/Portfolio/">Portfolio</a> • 
+🔗 <a href="https://github.com/ParasGupta-BCA">GitHub Profile</a>
+</p>
 
 ---
 
