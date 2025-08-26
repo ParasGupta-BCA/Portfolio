@@ -24,8 +24,11 @@
 ---
 
 ## 📈 GitHub Stats  
-![Paras's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ParasGupta-BCA&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ParasGupta-BCA&layout=compact&theme=tokyonight)  
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ParasGupta-BCA&show_icons=true&theme=tokyonight" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParasGupta-BCA&layout=compact&theme=tokyonight" height="165"/>
+</p>
 
 ---
 
