@@ -80,7 +80,7 @@
         <img src="https://avatars.githubusercontent.com/u/88033881?v=4" alt="/">
       </div>
       <h1 class="mt-1">Paras Gupta</h1>
-      <div class="d-none d-lg-inline-block"
+      <div id="sidebar-linkedin-button-wrapper" class="d-none d-lg-inline-block"
         style="transform: scale(0.5); transform-origin: top center; margin-bottom: -90px; margin-top: -30px;">
         <div class="light-button">
           <button class="bt"
@@ -1161,6 +1161,32 @@
         map: map
       });
     }
+
+    // Logic to show/hide LinkedIn button based on URL hash
+    function toggleLinkedinButton() {
+      var wrapper = document.getElementById('sidebar-linkedin-button-wrapper');
+      if (!wrapper) return;
+      var hash = window.location.hash;
+      // Show if hash is empty, #, or #hero
+      if (!hash || hash === '#' || hash === '#hero') {
+        wrapper.classList.remove('d-none');
+        wrapper.classList.add('d-lg-inline-block');
+      } else {
+        wrapper.classList.add('d-none');
+        wrapper.classList.remove('d-lg-inline-block');
+      }
+    }
+
+    // Run on specific events
+    window.addEventListener('hashchange', toggleLinkedinButton);
+    window.addEventListener('load', toggleLinkedinButton);
+    // Also run on click of menu items to be responsive immediate
+    document.addEventListener('click', function (e) {
+      if (e.target.closest('a[href^="#"]')) {
+        setTimeout(toggleLinkedinButton, 50); // small delay to allow hash update
+      }
+    });
+
   </script>
 </body>
 
