@@ -13,7 +13,7 @@
 
 ## 🌟 About Me
 - 🎓 Currently pursuing **BCA** at Bharati Vidyapeeth (Deemed to be University)  
-- 💡 Exploring **Web Development, App Development & Cybersecurity**  
+- 💡 Exploring **Web Development, Data Analyst & Cybersecurity**  
 - 🚧 Actively working on **personal & open-source projects**  
 - ✨ Learning something new every day  
 
