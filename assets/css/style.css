@@ -2578,3 +2578,8 @@ body.dark-arshia , .dark-arshia .ajax-page-content{
      d i s p l a y :   n o n e   ! i m p o r t a n t ; 
  }  
  
+ . l e f t - s i d e   i m g   { 
+     b o r d e r :   3 p x   s o l i d   # f f f f f f ; 
+     b o x - s h a d o w :   0   0   1 0 p x   r g b a ( 0 , 0 , 0 , 0 . 1 ) ; 
+ }  
+ 
