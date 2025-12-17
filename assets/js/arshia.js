@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------
- * Template Name    : Arshia | Bootstrap 5 Responsive Personal V-Card Resume HTML Template
+ * Template Name    : Paras Gupta | Bootstrap 5 Responsive Personal V-Card Resume HTML Template
  * Author           : Retrina Group
  * Version          : 1.0.0
  * Created          : November 2021
