@@ -1,0 +1,59 @@
+
+/*------------------------- Modern Portfolio Filter -------------------------*/
+.portfolio-filter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.portfolio-filter .list-inline-item {
+    margin: 0 !important; /* Override default margins */
+}
+
+.portfolio-filter a {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: #f8f9fa; /* Light grey */
+    color: #6c757d; /* Muted text */
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    text-decoration: none !important;
+}
+
+.portfolio-filter a:hover {
+    background: #e9ecef;
+    color: #495057;
+}
+
+.portfolio-filter a.active {
+    background: #0bceaf !important; /* Teal Base Color */
+    color: #fff !important;
+    box-shadow: 0 4px 12px rgba(11, 206, 175, 0.3);
+}
+
+@media (max-width: 991px) {
+    .portfolio-filter {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding-bottom: 15px; /* Space for scroll */
+        -webkit-overflow-scrolling: touch;
+        margin-left: -10px; /* Aligns visually with edge if needed */
+        margin-right: -10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .portfolio-filter::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .portfolio-filter a {
+        white-space: nowrap;
+    }
+}
