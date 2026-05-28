@@ -219,6 +219,30 @@
     .info-value a:hover {
       text-decoration: underline;
     }
+    @media (max-width: 576px) {
+      .info-item {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 12px;
+      }
+      .info-label {
+        width: auto;
+        margin-bottom: 2px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        opacity: 0.6;
+      }
+      .info-value {
+        font-size: 0.9rem;
+        word-break: break-all;
+      }
+      .personal-info-box .to-contact {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+      }
+    }
   </style>
 </head>
 
