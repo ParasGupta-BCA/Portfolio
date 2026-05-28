@@ -100,6 +100,47 @@
     .font-weight-bold {
       font-weight: 700;
     }
+
+    /* Hero Refined Styles */
+    .badge-role {
+      display: inline-block;
+      padding: 5px 14px;
+      border-radius: 30px;
+      background: rgba(11, 206, 175, 0.08);
+      color: #0bceaf;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      border: 1px solid rgba(11, 206, 175, 0.15);
+      transition: all 0.3s ease;
+    }
+    .badge-role:hover {
+      background: #0bceaf;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(11, 206, 175, 0.2);
+    }
+    .hero-illustration {
+      max-width: 100%;
+      height: auto;
+      max-height: 350px;
+      object-fit: contain;
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0px); }
+    }
+    @media (max-width: 768px) {
+      .hero-content h2 {
+        font-size: 2.2rem !important;
+      }
+      .hero-content h3 {
+        font-size: 1.4rem !important;
+      }
+    }
   </style>
 </head>
 
@@ -125,7 +166,7 @@
           <i class="bi bi-linkedin" style="color: #0a66c2;"></i>
         </a>
         <a href="https://github.com/ParasGupta-BCA" target="_blank" title="GitHub">
-          <i class="bi bi-github" style="color: #fff;"></i>
+          <i class="bi bi-github" style="color: #24292e;"></i>
         </a>
         <a href="https://twitter.com/dfounderparas" target="_blank" title="Twitter/X">
           <i class="bi bi-twitter" style="color: #1da1f2;"></i>
@@ -226,7 +267,7 @@
           target="_blank">Linkedin</a>
         <div class="social d-lg-none d-block">
           <a href="https://github.com/ParasGupta-BCA" target="_blank" class="d-inline-block">
-            <i class="bi bi-github" style="color: #fff;"></i>
+            <i class="bi bi-github" style="color: #24292e;"></i>
           </a>
           <a href="https://instagram.com/parasgupta26_" target="_blank" class="d-inline-block mx-4">
             <i class="bi bi-instagram t-purple"></i>
@@ -245,19 +286,28 @@
 
     <!--  Hero Start  -->
     <section id="hero" class="section hero w-100">
-      <img class="extend-icon" src="assets/img/bioprofile.png" alt="/">
       <div class="hero-center">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-12 text-center text-lg-start">
+          <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-lg-7 text-center text-lg-start">
               <div class="hero-image d-inline-block d-lg-none">
                 <img src="https://avatars.githubusercontent.com/u/88033881?v=4" alt="/">
               </div>
-              <div class="hero-content mt-4 mx-auto mx-lg-0 text-lg-left mt-lg-none">
-                <p class="base-color" style="font-size: 1.1rem; font-weight: 600; letter-spacing: 1px;">Data Analyst | Digital Marketing | Front-End Developer</p>
-                <h2>Hello , I’m <span class="base-color">Paras Gupta </span>Welcome to my World. </h2>
-                <p class="lead text-muted mt-3" style="max-width: 600px; font-size: 1.05rem; line-height: 1.6;">Transforming raw data into actionable insights, growing brands digitally, and building modern responsive websites 🚀</p>
+              <div class="hero-content mt-4 mx-auto mx-lg-0 text-lg-left mt-lg-none" style="max-width: 100%;">
+                <div class="hero-badges mb-3 text-center text-lg-start">
+                  <span class="badge-role">Data Analytics</span>
+                  <span class="badge-role">Digital Marketing</span>
+                  <span class="badge-role">Front-End Dev</span>
+                </div>
+                <h2 style="font-size: 2.8rem; font-weight: 700; line-height: 1.2; margin-bottom: 10px;">Hello, I'm <span class="base-color">Paras Gupta</span></h2>
+                <h3 style="font-size: 1.8rem; font-weight: 500; color: #4a4a4a; margin-bottom: 20px;">Welcome to my World</h3>
+                <p class="lead text-muted" style="font-size: 1.1rem; line-height: 1.6; max-width: 550px;">Transforming raw data into actionable insights, growing brands digitally, and building modern responsive websites 🚀</p>
               </div>
+            </div>
+            <!-- Illustration Graphic -->
+            <div class="col-lg-5 d-none d-lg-flex align-items-center justify-content-center">
+              <img class="hero-illustration" src="assets/img/bioprofile.png" alt="Illustration">
             </div>
           </div>
         </div>
@@ -268,7 +318,7 @@
           target="_blank">Linkedin</a>
         <div class="social d-lg-none mb-4 d-block">
           <a href="https://github.com/ParasGupta-BCA" target="_blank" class="d-inline-block">
-            <i class="bi bi-github" style="color: #fff;"></i>
+            <i class="bi bi-github" style="color: #24292e;"></i>
           </a>
           <a href="https://instagram.com/parasgupta26_" target="_blank" class="d-inline-block mx-4">
             <i class="bi bi-instagram t-purple"></i>
