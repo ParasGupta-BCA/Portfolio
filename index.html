@@ -243,6 +243,110 @@
         margin-top: 15px;
       }
     }
+
+    /* CV Download Section Styling */
+    .cv-download-section {
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .cv-download-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: #0bceaf;
+      border-radius: 16px 0 0 16px;
+    }
+    .cv-download-section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(11, 206, 175, 0.08);
+      border-color: rgba(11, 206, 175, 0.2);
+    }
+    .cv-icon-box {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      background: rgba(11, 206, 175, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      color: #0bceaf;
+      flex-shrink: 0;
+      transition: all 0.3s ease;
+    }
+    .cv-download-section:hover .cv-icon-box {
+      background: #0bceaf;
+      color: #ffffff;
+      transform: scale(1.05);
+    }
+    .cv-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 8px;
+    }
+    .cv-desc {
+      font-size: 0.9rem;
+      color: #64748b;
+      line-height: 1.5;
+    }
+    .cv-download-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 28px;
+      background: #0bceaf;
+      color: #ffffff !important;
+      font-weight: 600;
+      font-size: 0.95rem;
+      border-radius: 10px;
+      border: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 14px rgba(11, 206, 175, 0.25);
+      text-decoration: none !important;
+      width: 100%;
+    }
+    .cv-download-btn:hover {
+      background: #09a38a;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(11, 206, 175, 0.35);
+    }
+    .cv-download-btn:active {
+      transform: translateY(0);
+    }
+
+    @media (min-width: 576px) {
+      .cv-download-btn {
+        width: auto;
+      }
+    }
+    @media (max-width: 767px) {
+      .cv-download-section {
+        padding: 24px;
+      }
+      .cv-icon-box {
+        margin-bottom: 15px;
+      }
+      .cv-title {
+        font-size: 1.15rem;
+      }
+      .cv-desc {
+        font-size: 0.85rem;
+      }
+      .cv-download-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+      }
+    }
   </style>
 </head>
 
@@ -988,8 +1092,30 @@
               </div>
             </div>
           </div>
-
         </div>
+
+        <!-- Download CV CTA Section -->
+        <div class="cv-download-section mt-5">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-8 text-center text-lg-start mb-4 mb-lg-0">
+              <div class="d-flex flex-column flex-md-row align-items-center align-items-lg-start">
+                <div class="cv-icon-box mb-3 mb-md-0 me-md-4">
+                  <i class="bi bi-file-earmark-arrow-down-fill"></i>
+                </div>
+                <div class="cv-text-box">
+                  <h4 class="cv-title">Download My Professional Resume</h4>
+                  <p class="cv-desc mb-0">Get a comprehensive overview of my experience, technical skills, and academic qualifications in a printer-friendly PDF format.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 text-center text-lg-end">
+              <a href="assets/cv/Paras_Gupta_CV.pdf" download class="cv-download-btn">
+                <i class="bi bi-download me-2"></i>Download CV (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
     <!--  Resume End  -->
