@@ -141,6 +141,84 @@
         font-size: 1.4rem !important;
       }
     }
+
+    /* About Me Cards */
+    .about-cards-grid {
+      margin-top: 20px;
+    }
+    .about-card {
+      display: flex;
+      align-items: flex-start;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      padding: 14px 16px;
+      border-radius: 10px;
+      height: 100%;
+      transition: all 0.3s ease;
+      text-align: left;
+    }
+    .about-card:hover {
+      background: #f1f5f9;
+      border-color: #cbd5e1;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .about-card-icon {
+      font-size: 1.3rem;
+      color: #0bceaf;
+      margin-right: 15px;
+      margin-top: 2px;
+      line-height: 1;
+    }
+    .about-card-info h6 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .about-card-info p {
+      font-size: 0.82rem;
+      color: #475569;
+      margin-bottom: 0;
+      line-height: 1.45;
+    }
+    .fun-fact-box {
+      background: rgba(11, 206, 175, 0.05);
+      border-left: 4px solid #0bceaf;
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.85rem;
+      color: #334155;
+      text-align: left;
+    }
+    .personal-info-box {
+      border-top: 1px solid #e2e8f0;
+      text-align: left;
+    }
+    .info-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 0.85rem;
+    }
+    .info-label {
+      font-weight: 700;
+      color: #1e293b;
+      width: 90px;
+      flex-shrink: 0;
+    }
+    .info-value {
+      color: #475569;
+    }
+    .info-value a {
+      color: #0bceaf;
+      text-decoration: none;
+    }
+    .info-value a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 
@@ -329,39 +407,85 @@
                 <h3 class="mb-3">A short story about me, my mission, thinking and craft.</h3>
                 <p class="about-text">I am a passionate professional specializing in <strong>Data Analytics, Digital Marketing, and Modern Front-End Development</strong>. I excel at transforming raw data into actionable insights, scaling brands through targeted digital marketing, and building high-performance, responsive web applications.</p>
               </div>
-              <div class="about-bullets my-3">
-                <ul class="list-unstyled" style="padding-left: 0; line-height: 1.8; font-size: 0.9rem;">
-                  <li class="mb-2"><span class="base-color font-weight-bold">🌱 Learning:</span> Advanced Data Analytics, SEO, Performance Marketing & Modern Front-End Development</li>
-                  <li class="mb-2"><span class="base-color font-weight-bold">👯 Collaborating:</span> Data Analytics, Digital Marketing & Web Development Projects</li>
-                  <li class="mb-2"><span class="base-color font-weight-bold">🤝 Help with:</span> AI Analytics, Marketing Strategies & Scalable Dashboards</li>
-                  <li class="mb-2"><span class="base-color font-weight-bold">💬 Ask me about:</span> Data Analytics, SEO, Social Media Marketing, Front-End & GitHub</li>
-                  <li class="mb-2"><span class="base-color font-weight-bold">⚡ Fun fact:</span> I enjoy turning complex data into simple visual stories 📈</li>
-                </ul>
+              <!-- Modern Grid of Cards (Replacing Legacy Bullet Points) -->
+              <div class="about-cards-grid row">
+                <div class="col-md-6 mb-3">
+                  <div class="about-card">
+                    <div class="about-card-icon"><i class="bi bi-book-half"></i></div>
+                    <div class="about-card-info">
+                      <h6>Learning</h6>
+                      <p>Advanced Data Analytics, SEO, Performance Marketing & Modern Web Dev</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="about-card">
+                    <div class="about-card-icon"><i class="bi bi-people-fill"></i></div>
+                    <div class="about-card-info">
+                      <h6>Collaborating</h6>
+                      <p>Data Analytics, Digital Marketing & Web Development Projects</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="about-card">
+                    <div class="about-card-icon"><i class="bi bi-lightbulb-fill"></i></div>
+                    <div class="about-card-info">
+                      <h6>Help With</h6>
+                      <p>AI Analytics, Marketing Strategies & Scalable Dashboards</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <div class="about-card">
+                    <div class="about-card-icon"><i class="bi bi-chat-left-text-fill"></i></div>
+                    <div class="about-card-info">
+                      <h6>Ask Me About</h6>
+                      <p>Data Analytics, SEO, Social Media Marketing, Front-End & GitHub</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!-- Personal Info -->
-              <div class="row pt-2">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled personal-info">
-                    <li>Email Id : <small>parasgupta4494@gmail.com</small>
-                    </li>
-                    <li>Phone : <small>+91 9990153534</small>
-                    </li>
-                    <li>City : <small>New Delhi, India</small>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled personal-info">
-                    <li>Age : <small>18</small>
-                    </li>
-                    <li>Degree : <small>BCA</small>
-                    </li>
-                    <li>Freelance : <small>Available</small>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-12 mt-2">
-                  <a href="#contact" class="to-contact primary-button">Hire me</a>
+
+              <!-- Fun Fact Callout Box -->
+              <div class="fun-fact-box my-3">
+                <p class="mb-0"><i class="bi bi-lightning-charge-fill base-color me-2"></i><strong>Fun fact:</strong> I enjoy turning complex data into simple visual stories 📈</p>
+              </div>
+
+              <!-- Personal Info Table (Clean metadata grid) -->
+              <div class="personal-info-box pt-3 mt-3">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="info-item mb-2">
+                      <span class="info-label">Email:</span>
+                      <span class="info-value"><a href="mailto:parasgupta4494@gmail.com">parasgupta4494@gmail.com</a></span>
+                    </div>
+                    <div class="info-item mb-2">
+                      <span class="info-label">Phone:</span>
+                      <span class="info-value">+91 9990153534</span>
+                    </div>
+                    <div class="info-item mb-2">
+                      <span class="info-label">City:</span>
+                      <span class="info-value">New Delhi, India</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="info-item mb-2">
+                      <span class="info-label">Age:</span>
+                      <span class="info-value">18</span>
+                    </div>
+                    <div class="info-item mb-2">
+                      <span class="info-label">Degree:</span>
+                      <span class="info-value">BCA</span>
+                    </div>
+                    <div class="info-item mb-2">
+                      <span class="info-label">Freelance:</span>
+                      <span class="info-value badge bg-success text-white px-2 py-1" style="font-size: 0.75rem; font-weight: 500;">Available</span>
+                    </div>
+                  </div>
+                  <div class="col-12 mt-3">
+                    <a href="#contact" class="to-contact primary-button">Hire me</a>
+                  </div>
                 </div>
               </div>
             </div>
