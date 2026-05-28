@@ -1,10 +1,11 @@
 <h1 align="center">Hi 👋, I'm Paras Gupta</h1>
+
 <h3 align="center">
-Aspiring Data Analyst | Cyber & Data Analytics Enthusiast | Front-End Web Developer
+Data Analyst | Digital Marketing | Front-End Developer
 </h3>
 
 <p align="center">
-Turning raw data into meaningful insights 📊 and building modern web dashboards
+Transforming data into actionable insights, growing brands digitally, and building modern responsive websites 🚀
 </p>
 
 <p align="center">
@@ -20,17 +21,17 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
 
 ## 🚀 About Me
 
-- 🌱 Currently learning **Python for Data Analysis, SQL, Power BI, Data Visualization, Cyber Analytics & Advanced JavaScript**
-- 👯 Looking to collaborate on **Data Analysis, Cyber Analytics & Front-End Web Projects**
-- 🤝 Looking for help with **Advanced Data Analytics, Machine Learning & Security Analytics**
+- 🌱 Currently learning **Advanced Data Analytics, SEO, Performance Marketing & Modern Front-End Development**
+- 👯 Looking to collaborate on **Data Analytics, Digital Marketing & Web Development Projects**
+- 🤝 Looking for help with **AI Analytics, Marketing Strategies & Scalable Dashboards**
 - 👨‍💻 Portfolio: <a href="https://parasgupta-bca.github.io/Portfolio">parasgupta-bca.github.io/Portfolio</a>
-- 💬 Ask me about **Data Analysis, Cyber & Data Analytics, Front-End Web Development, Git & GitHub**
+- 💬 Ask me about **Data Analytics, SEO, Social Media Marketing, Front-End Development & GitHub**
 - 📫 Reach me at **parasgupta4494@gmail.com**
-- ⚡ Fun fact: **I love converting complex data into clear insights 📈**
+- ⚡ Fun fact: **I enjoy turning complex data into simple visual stories 📈**
 
 ---
 
-## 🌐 Connect with Me
+## 🌐 Connect With Me
 
 <div align="left">
   <a href="https://linkedin.com/in/parasgupta-binary0101">
@@ -40,21 +41,22 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
 
 <p align="left">
   <a href="https://linkedin.com/in/parasgupta-binary0101">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://twitter.com/dfounderparas">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
   <a href="https://instagram.com/parasgupta26_">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=E4405F" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
 </p>
 
 ---
 
-## 🛠 Languages & Tools (Data Analyst)
+# 🛠 Languages & Tools
 
-### 📊 Data Analytics & Visualization
+## 📊 Data Analytics & Visualization
+
 <table>
   <tr>
     <td align="center" width="110">
@@ -72,55 +74,13 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
   </tr>
   <tr>
     <td align="center" width="110">
-      <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" width="40"/><br/>
-      Tableau
+      <img src="https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000" width="40"/><br/>Tableau
     </td>
     <td align="center" width="110">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40"/><br/>MySQL
     </td>
     <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40"/><br/>PostgreSQL
-    </td>
-    <td align="center" width="110">
       <img src="https://img.icons8.com/?size=100&id=117561&format=png&color=000000" width="40"/><br/>Excel
-    </td>
-  </tr>
-</table>
-
----
-
-### 📈 Data Science & ML Basics
-<table>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40"/><br/>Scikit-learn
-    </td>
-    <td align="center" width="110">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="40"/><br/>Matplotlib
-    </td>
-    <td align="center" width="110">
-  <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="40"/><br/>
-  Seaborn
-     </td>
-    <td align="center" width="110">
-      <img src="https://cdn.brandfetch.io/idwPNp71Xw/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1764036938735" width="40"/><br/>Plotly
-    </td>
-  </tr>
-</table>
-
----
-
-### ☁️ Data, Cyber & Cloud Platforms
-<table>
-  <tr>
-    <td align="center" width="110">
-      <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="40"/><br/>Google Cloud
-    </td>
-    <td align="center" width="110">
-      <img src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" width="40"/><br/>AWS
-    </td>
-    <td align="center" width="110">
-      <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" width="40"/><br/>Firebase
     </td>
     <td align="center" width="110">
       <img src="https://www.vectorlogo.zone/logos/google_bigquery/google_bigquery-icon.svg" width="40"/><br/>BigQuery
@@ -130,7 +90,43 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
 
 ---
 
-### 🌐 Front-End (for Data Dashboards)
+## 📈 Digital Marketing
+
+<table>
+  <tr>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" width="40"/><br/>SEO
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" width="40"/><br/>Google Ads
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" width="40"/><br/>Meta Ads
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="40"/><br/>Content Marketing
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" width="40"/><br/>Email Marketing
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" width="40"/><br/>Analytics
+    </td>
+    <td align="center" width="110">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732228.png" width="40"/><br/>Google Analytics
+    </td>
+    <td align="center" width="110">
+      <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" width="40"/><br/>Automation
+    </td>
+  </tr>
+</table>
+
+---
+
+## 💻 Front-End Development
+
 <table>
   <tr>
     <td align="center" width="110">
@@ -150,7 +146,8 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
 
 ---
 
-### ⚙️ Tools & Workflow
+## ⚙️ Tools & Workflow
+
 <table>
   <tr>
     <td align="center" width="110">
@@ -163,20 +160,17 @@ Turning raw data into meaningful insights 📊 and building modern web dashboard
       <img src="https://www.vectorlogo.zone/logos/jupyter/jupyter-icon.svg" width="40"/><br/>Jupyter
     </td>
     <td align="center" width="110">
-      <img src="https://www.vectorlogo.zone/logos/zapier/zapier-icon.svg" width="40"/><br/>Zapier
+      <img src="https://img.icons8.com/color/48/figma--v1.png" width="40"/><br/>Figma
     </td>
   </tr>
 </table>
 
 ---
 
-## 📈 GitHub Stats  
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ParasGupta-BCA&show_icons=true&theme=tokyonight" height="165" style="margin-right: 20px;"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParasGupta-BCA&layout=compact&theme=tokyonight" height="165"/>
-</p>
+### 🚀 “Data + Marketing + Design = Digital Growth”
 
----
+⭐⭐ If you like my work, consider starring my repositories! ⭐⭐
 
-⭐ If you like my work, consider starring my repositories!
+</div>
